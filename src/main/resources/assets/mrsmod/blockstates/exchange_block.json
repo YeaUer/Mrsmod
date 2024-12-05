@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mrsmod:block/exchange_block"
+    }
+  }
+}

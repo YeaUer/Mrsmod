@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mrsmod",
+	"version": "${version}",
+	"name": "MrsMod",
+	"description": "雷索纳斯模组",
+	"authors": [
+		"棠鸿水"
+	],
+	"contact": {
+		"homepage": "https://space.bilibili.com/3493105611311740?spm_id_from=333.1007.0.0",
+		"sources": "https://github.com/YeaUer/Mrsmod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mrsmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mrsmod.MrsMod"
+		],
+		"fabric-datagen": [
+			"com.mrsmod.MrsModDataGenerator"
+		],
+		"client": [
+			"com.mrsmod.MrsModClient"
+		]
+	},
+	"mixins": [
+		"mrsmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

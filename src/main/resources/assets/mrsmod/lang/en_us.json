@@ -1,0 +1,16 @@
+{
+  "item.mrsmod.itemgroup.mrs_group": "Mrs group",
+
+  "item.mrsmod.wawayu_alliance_badge": "Wawayu Alliance Badge",
+  "item.mrsmod.tiemeng_coin": "Tiemeng Coin",
+  "item.mrsmod.ssr": "Special Weapon Modification License",
+  "item.mrsmod.sr": "General weapon modification certificate",
+
+  "item.mrsmod.resonance_solstice": "Resonance Solstice",
+
+  "block.mrsmod.exchange_block": "Exchange Block",
+
+  "block.mrsmod.nebula_mine": "Nebula Mine",
+  "block.mrsmod.deepslate_nebula_mine": "Deepslate Nebula Mine",
+  "item.mrsmod.nebula_fragment": " Nebula Fragment"
+}
